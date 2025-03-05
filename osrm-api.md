@@ -1,6 +1,3 @@
-Here’s the content formatted in Markdown for your GitHub repository:
-
-```markdown
 # OSRM - Open Source Routing Machine & Open Street Maps - Configuration
 
 In a past project, the need arose to improve driving distance calculations, which were initially based on the crow-fly (straight-line) method. This approach lacked accuracy for real-world applications, as it did not account for road networks, traffic conditions, or vehicle constraints.
@@ -27,7 +24,7 @@ The extraction process takes raw data from the map file and formats it so that O
 
 ```bash
 wget http://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf
-```
+
 
 ## Preprocessing the Extract
 Preprocess the extract using the car profile and start a routing engine HTTP server on port 5000:
@@ -70,5 +67,3 @@ curl "http://127.0.0.1:5000/route/v1/driving/13.388860,52.517037;13.385983,52.49
 ```
 
 ```
-
-This will properly format everything for your GitHub page. Let me know if you need any additional changes! 😊
