@@ -24,7 +24,7 @@ The extraction process takes raw data from the map file and formats it so that O
 
 ```bash
 wget http://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf
-
+```
 
 ## Preprocessing the Extract
 Preprocess the extract using the car profile and start a routing engine HTTP server on port 5000:
