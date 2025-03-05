@@ -1,6 +1,6 @@
 # OSRM - Open Source Routing Machine & Open Street Maps - Configuration
 
-In a past project, the need arose to improve driving distance calculations, which were initially based on the crow-fly (straight-line) method. This approach lacked accuracy for real-world applications, as it did not account for road networks, traffic conditions, or vehicle constraints.
+In a past project, the need arose to improve driving distance calculations, which were initially based on the crow-fly (straight-line) method. This approach lacked accuracy for real-world applications, as it did not account for road networks.
 
 A key challenge was developing an alert system for electric vehicle drivers to notify them when their remaining battery charge might be insufficient to return to the starting point. To address this, I conducted research and testing on OSRM (Open Source Routing Machine) as a possible solution. The testing was carried out both on a local machine and on a Google Cloud instance to evaluate performance, scalability, and deployment feasibility.
 
